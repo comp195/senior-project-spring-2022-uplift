@@ -29,3 +29,17 @@ h2 {
 	filter: grayscale(0);
 	transform: scale(1.1);
 }
+
+.column {
+	flex: 33.33%;
+	padding: 5px;
+}
+
+.row {
+	display: flex;
+}
+
+.column img {
+	width: 700px;
+	height: 900px;
+}
