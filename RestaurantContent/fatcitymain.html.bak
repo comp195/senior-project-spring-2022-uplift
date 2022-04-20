@@ -5,7 +5,7 @@
 <body>
 <h1> Welcome to Fat City BBQ! </h1>
 <div class="link">
-	<a href="https://www.restaurantji.com/ca/stockton/lotus-thai-and-khmer-cuisines-/"> www.lotus.com</a>
+	<a href="https://www.fatcitybrewbbq.com/"> www.fatcitybrewbbq.com</a>
 </div>
 <h2> A native of Stockton, Don developed a love for BBQ when he and his best friend Noah starting 
 smoking ribs. He's very passionate about the California Style BBQ that he spent years perfecting. 
@@ -17,7 +17,7 @@ was born. <h2>
 	<img src="FatCityImages/PorkSlider.jpg">
 	<img src="FatCityImages/tots.jpg">
 	<img src="FatCityImages/wingbasket.jpg">
-	<img src="FatCityImages/wingbasket.jpg">
+	<img src="FatCityImages/Pitmaster.jpg">
 	<img src="FatCityImages/tritipsalad.jpg">
 </div>
 <div class="row">
@@ -25,7 +25,7 @@ was born. <h2>
 		<img src="LotusImages/lotusmenu1.jpg">
 	</div>
 	<div class="column">
-		<img src="cateringmenu.jpg">
+		<img src="FatCityImages/cateringmenu.jpg">
 	</div>
 </body>
 </html>
