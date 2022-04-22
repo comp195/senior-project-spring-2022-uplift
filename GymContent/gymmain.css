@@ -1,50 +1,10 @@
+button {
+	position: center;
+	height: 650px;
+	width: 490px;
+	margin: 2px;
+}
+
 h1 {
-	font-size: 50;
 	text-align: center;
-}
-
-h2 {
-	text-align: center;
-}
-
-h3 {
-	font-size: 50;
-	text-align: left;
-}
-
-.link {
-	text-align: center;
-	font-size: 50;
-}
-
-.gallery {
-	margin: 10px 50px;
-}
-
-.gallery img {
-	width: 400px;
-	height: 400px;
-	object-fit:cover;
-	filter: grayscale(100%);
-	transition: 1s;
-	padding: 5px;
-}
-
-.gallery img:hover {
-	filter: grayscale(0);
-	transform: scale(1.1);
-}
-
-.column {
-	flex: 33.33%;
-	padding: 5px;
-}
-
-.row {
-	display: flex;
-}
-
-.column img {
-	width: 700px;
-	height: 900px;
 }
