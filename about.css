@@ -11,6 +11,11 @@ html {
 	box-sizing: inherit;
 }
 
+.img {
+	width: 400px;
+	height: 400px;
+}
+
 .column {
 	float:left;
 	width: 33.3%;
