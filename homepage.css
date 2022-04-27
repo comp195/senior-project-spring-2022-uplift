@@ -54,8 +54,20 @@ ul li a:hover{
 
 .title h1 {
 	color: #FFF8DC;
-	font-size: 70px;
+	font-size: 90px;
 	
+}
+
+select {
+	font-size: 30px;
+}
+
+option {
+	font-size: 30px;
+}
+
+.myButton {
+	font-size: 30px;
 }
 
 .button {
@@ -63,6 +75,8 @@ ul li a:hover{
 	top: 62%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+	font-size: 40px;
+	color: white;
 }
 
 .btn {
