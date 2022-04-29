@@ -6,11 +6,11 @@
 </head>
 <body>
 	<div class="regform"><h1>Business Registration Form</h1></div>
-	<div class="mane">
+	<div class="main">
 		<form>
 		<div id="name">
 		<h2 class="name">Name</h2>
-		<input class="firstname" type="text" name="first_name"><br>
+		<input class="firstname" type="text" name="first_name">
 		<label class="firstlabel">First Name</label>
 		<input class="lastname" type="text" name="last_name">
 		<label class="lastlabel">Last Name</label>
@@ -31,12 +31,26 @@
 		<h2 class="name">Subject</h2>
 		<select class="option" name="subject">
 		<option disabled="disabled" selected="selected">--Choose Option</option>
-		<option> Subject 1</option>
-		<option> Subject 2</option>
-		<option> Subject 3</option>
+		<option> Gym</option>
+		<option> Restaurant</option>
+		<option> Cafe</option>
 		
 		</select>
 		
-		<button type="submit">Register</button>
+		<button type="submit" onclick="myFunction()">Register</button>
+		<p id="register"></p>
+		<script>
+		function myFunction() {
+			var txt;
+			if (confirm("Thank you for registering! Your info has been sent to our database and we will update our website with due time!")) {
+				txt = "You pressed OK!";
+			}
+			else {
+				txt = "You pressed Cancel!";
+			}
+			document.getElementByID("register").innerHTML = txt;
+		}
+		</script>
+		
 </body>
 </html>
