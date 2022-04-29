@@ -31,12 +31,26 @@
 		<h2 class="name">Subject</h2>
 		<select class="option" name="subject">
 		<option disabled="disabled" selected="selected">--Choose Option</option>
-		<option> Subject 1</option>
-		<option> Subject 2</option>
-		<option> Subject 3</option>
+		<option> Gym</option>
+		<option> Restaurant</option>
+		<option> Cafe</option>
 		
 		</select>
 		
-		<button type="submit">Register</button>
+		<button type="submit" onclick="myFunction()">Register</button>
+		<p id="register"></p>
+		<script>
+		function myFunction() {
+			var txt;
+			if (confirm("Thank you for registering! Your info has been sent to our database and we will update our website with due time!")) {
+				txt = "You pressed OK!";
+			}
+			else {
+				txt = "You pressed Cancel!";
+			}
+			document.getElementByID("register").innerHTML = txt;
+		}
+		</script>
+		
 </body>
 </html>

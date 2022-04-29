@@ -5,7 +5,6 @@
 <body>
 <h1> Contact Us </h1>
 <div class="container">
-	<form action="action_page.php">
 	<label for="firstname">First Name</label>
 	<input type="text" id="fname" name="firstname" placeholder="Enter your first name: ">
 	<label for="lname">Last Name</label>
@@ -18,8 +17,20 @@
 	</select>
 	<label for="subject">Subject</label>
 	<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-	<input type="submit" value="Submit">
-	</form>
+	<button type="submit" onclick="myFunction()">Register</button>
+	<p id="contact"></p>
+	<script>
+	function myFunction() {
+		var txt;
+		if (confirm("Thank you for your feedback. We will take into consideration what you have said!")) {
+			txt = "You pressed OK!";
+		}
+		else {
+			txt = "You pressed Cancel!";
+		}
+		document.getElementByID("contact").innerHTML = txt;
+	}
+	</script>
 </div>
 </body>
 </html>
