@@ -3,14 +3,6 @@
 	padding: 0;
 }
 
-body {
-	background-image: url("businessregister.jpg");
-	background-position: center;
-	background-size: cover;
-	font-family: sans-serif;
-	margin-top: 40px;
-}
-
 ul {
 	list-style-type: none;
 	float: right;
@@ -32,6 +24,14 @@ ul li a {
 ul li a:hover{
 	background-color: #fff;
 	color: #000;
+}
+
+body {
+	background-image: url("businessregister.jpg");
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+	margin-top: 40px;
 }
 
 .regform {
